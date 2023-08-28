@@ -2,13 +2,16 @@
   "name": "electron-js-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon --trace-warnings .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sabir Khan Akash",
   "license": "ISC",
   "dependencies": {
-    "electron": "^26.1.0"
+    "electron": "^26.1.0",
+    "react-router-dom": "^6.15.0"
   }
 }
